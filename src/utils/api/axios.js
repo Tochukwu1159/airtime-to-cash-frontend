@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseUrl = "http://localhost:4000";
+const baseUrl = "https://air-to-cash-app-backend.herokuapp.com";
 
 export const apiGet = (path, conf = {}, auth = true) => {
   const config = {
